@@ -1166,7 +1166,7 @@ Document procedures for:
 
 ## Contributing
 
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+We welcome contributions! Please see the repo-root [CONTRIBUTING.md](../../CONTRIBUTING.md) for guidelines.
 
 ### Development Workflow
 
@@ -1186,7 +1186,7 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 ## License
 
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License — see the repo-root [LICENSE](../../LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -1197,7 +1197,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) file for
 ## Contact
 
 For questions or support:
-- **Issues**: [GitHub Issues](https://github.com/ai-infra-curriculum/issues)
+- **Issues**: [GitHub Issues](https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-solutions/issues)
 - **Email**: ai-infra-curriculum@joshua-ferguson.com
 - **Documentation**: [Full Docs](https://docs.ai-infra-curriculum.com)
 
