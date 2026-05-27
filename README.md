@@ -20,6 +20,16 @@ This repository contains **complete, working solutions** for all 4 Senior AI Inf
 
 ---
 
+## ✨ What's New
+
+**2026-05-27 — Module-level rationale docs + CI runtime validation**
+
+- Added module-level `SOLUTION.md` design-rationale docs for all 10 modules (mod-201 through mod-210). Each doc explains *why* the senior-engineer-tier reference implementations are shaped the way they are — what distinguishes this altitude from the engineer track below and the principal tracks above.
+- New `.github/workflows/runtime-validation.yml` adds `kubectl apply --dry-run=client`, `terraform validate`, and a cache-only `docker buildx build` smoke for every relevant artifact under `modules/` and `projects/`. Each gate auto-skips when no relevant artifacts are present.
+- Audit score: 65 → 70.
+
+---
+
 ## 📊 What's Included
 
 ### ✅ Complete Implementations
