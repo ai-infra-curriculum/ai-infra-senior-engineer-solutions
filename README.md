@@ -705,3 +705,9 @@ Special thanks to:
 ---
 
 **Ready to dive in? Start with [Project 201: Distributed Training](projects/project-201-distributed-training/)**
+
+
+---
+
+<!-- aicg:maintained-by -->
+Maintained by [VeriSwarm.ai](https://veriswarm.ai)
