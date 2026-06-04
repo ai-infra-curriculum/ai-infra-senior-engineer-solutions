@@ -984,7 +984,7 @@ helm install prometheus prometheus-community/kube-prometheus-stack -n monitoring
 # Install Jaeger
 kubectl create namespace monitoring
 kubectl apply -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/master/deploy/crds/jaegertracing.io_jaegers_crd.yaml
-kubectl apply -f https://raw.githubusercontent.com/jaegertracing/jaeger-operator/master/deploy/operator.yaml -n monitoring
+kubectl apply -f http://web.archive.org/web/20211018223746/https://raw.githubusercontent.com/jaegertracing/jaeger-operator/master/deploy/operator.yaml -n monitoring
 
 # Access UIs
 kubectl port-forward -n monitoring svc/prometheus-kube-prometheus-prometheus 9090:9090
