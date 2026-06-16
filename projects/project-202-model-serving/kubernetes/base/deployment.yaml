@@ -38,7 +38,11 @@ spec:
         prometheus.io/port: "9090"
         prometheus.io/path: "/metrics"
         # Force pod restart on config changes
-        checksum/config: "{{ include (print $.Template.BasePath '/configmap.yaml') . | sha256sum }}"
+        # When packaged with Helm, replace this literal with a sha256sum of the
+        # rendered configmap (e.g., {{ include (print $.Template.BasePath
+        # '/configmap.yaml') . | sha256sum }}). Kept as a static placeholder
+        # here so the manifest is valid plain Kubernetes YAML.
+        checksum/config: "static-placeholder"
 
     spec:
       # Service account for RBAC
