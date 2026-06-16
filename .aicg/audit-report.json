@@ -1,0 +1,269 @@
+{
+  "checks": {
+    "learning_solution_parity": {
+      "status": "pass"
+    },
+    "placeholder_scan": {
+      "finding_count": 6,
+      "status": "pass"
+    },
+    "project_parity": {
+      "project_count": 4,
+      "status": "pass"
+    },
+    "repo_structure": {
+      "finding_count": 0,
+      "status": "pass"
+    }
+  },
+  "gaps": [
+    {
+      "excerpt": "# Placeholder implementation",
+      "line": 123,
+      "message": "Found placeholder marker.",
+      "path": "projects/project-204-k8s-operator/src/controllers/status_controller.py",
+      "severity": "warning",
+      "type": "placeholder"
+    },
+    {
+      "excerpt": "# Placeholder implementation",
+      "line": 93,
+      "message": "Found placeholder marker.",
+      "path": "projects/project-204-k8s-operator/src/controllers/checkpoint_controller.py",
+      "severity": "warning",
+      "type": "placeholder"
+    },
+    {
+      "excerpt": "# Placeholder implementation",
+      "line": 112,
+      "message": "Found placeholder marker.",
+      "path": "projects/project-204-k8s-operator/src/controllers/checkpoint_controller.py",
+      "severity": "warning",
+      "type": "placeholder"
+    },
+    {
+      "excerpt": "# Placeholder for GCP cost data",
+      "line": 181,
+      "message": "Found placeholder marker.",
+      "path": "projects/project-203-multi-region/src/cost/cost_analyzer.py",
+      "severity": "warning",
+      "type": "placeholder"
+    },
+    {
+      "excerpt": "# Placeholder for Azure cost data",
+      "line": 204,
+      "message": "Found placeholder marker.",
+      "path": "projects/project-203-multi-region/src/cost/cost_analyzer.py",
+      "severity": "warning",
+      "type": "placeholder"
+    },
+    {
+      "excerpt": "This is a placeholder - in production, this would call the actual",
+      "line": 961,
+      "message": "Found placeholder marker.",
+      "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "severity": "warning",
+      "type": "placeholder"
+    }
+  ],
+  "generated_at": "2026-06-01T22:27:33Z",
+  "modules": [
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-201-advanced-kubernetes",
+      "missing_solution_count": 0,
+      "module_id": "mod-201-advanced-kubernetes",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-201-advanced-kubernetes/SOLUTION.md",
+      "solution_path": "modules/mod-201-advanced-kubernetes",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-202-distributed-training",
+      "missing_solution_count": 0,
+      "module_id": "mod-202-distributed-training",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-202-distributed-training/SOLUTION.md",
+      "solution_path": "modules/mod-202-distributed-training",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-203-gpu-computing",
+      "missing_solution_count": 0,
+      "module_id": "mod-203-gpu-computing",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-203-gpu-computing/SOLUTION.md",
+      "solution_path": "modules/mod-203-gpu-computing",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-204-model-optimization",
+      "missing_solution_count": 0,
+      "module_id": "mod-204-model-optimization",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-204-model-optimization/SOLUTION.md",
+      "solution_path": "modules/mod-204-model-optimization",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-205-multi-cloud",
+      "missing_solution_count": 0,
+      "module_id": "mod-205-multi-cloud",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-205-multi-cloud/SOLUTION.md",
+      "solution_path": "modules/mod-205-multi-cloud",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-206-advanced-mlops",
+      "missing_solution_count": 0,
+      "module_id": "mod-206-advanced-mlops",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-206-advanced-mlops/SOLUTION.md",
+      "solution_path": "modules/mod-206-advanced-mlops",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-207-observability-sre",
+      "missing_solution_count": 0,
+      "module_id": "mod-207-observability-sre",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-207-observability-sre/SOLUTION.md",
+      "solution_path": "modules/mod-207-observability-sre",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-208-iac-gitops",
+      "missing_solution_count": 0,
+      "module_id": "mod-208-iac-gitops",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-208-iac-gitops/SOLUTION.md",
+      "solution_path": "modules/mod-208-iac-gitops",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-209-security-compliance",
+      "missing_solution_count": 0,
+      "module_id": "mod-209-security-compliance",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-209-security-compliance/SOLUTION.md",
+      "solution_path": "modules/mod-209-security-compliance",
+      "status": "ok"
+    },
+    {
+      "exercise_count": 0,
+      "exercises": [],
+      "gaps": [],
+      "has_module_rationale": true,
+      "learning_path": "lessons/mod-210-technical-leadership",
+      "missing_solution_count": 0,
+      "module_id": "mod-210-technical-leadership",
+      "module_rationale_only_count": 0,
+      "module_rationale_path": "modules/mod-210-technical-leadership/SOLUTION.md",
+      "solution_path": "modules/mod-210-technical-leadership",
+      "status": "ok"
+    }
+  ],
+  "paired_repo": {
+    "has_git": true,
+    "kind": "learning",
+    "name": "ai-infra-senior-engineer-learning",
+    "path": "/home/rook/ai-infra-curriculum/ai-infra-senior-engineer-learning",
+    "track": "senior-engineer"
+  },
+  "projects": [
+    {
+      "found_artifact": "projects/project-201-distributed-training/SOLUTION.md",
+      "gaps": [],
+      "learning_path": "projects/project-201-distributed-training",
+      "project_id": "project-201-distributed-training",
+      "solution_path": "projects/project-201-distributed-training",
+      "status": "ok",
+      "title": "Project 201: Distributed Training Platform with Ray"
+    },
+    {
+      "found_artifact": "projects/project-202-model-serving/SOLUTION.md",
+      "gaps": [],
+      "learning_path": "projects/project-202-model-serving",
+      "project_id": "project-202-model-serving",
+      "solution_path": "projects/project-202-model-serving",
+      "status": "ok",
+      "title": "Project 202: High-Performance Model Serving"
+    },
+    {
+      "found_artifact": "projects/project-203-multi-region/SOLUTION.md",
+      "gaps": [],
+      "learning_path": "projects/project-203-multi-region",
+      "project_id": "project-203-multi-region",
+      "solution_path": "projects/project-203-multi-region",
+      "status": "ok",
+      "title": "Project 203: Multi-Region ML Platform"
+    },
+    {
+      "found_artifact": "projects/project-204-k8s-operator/SOLUTION.md",
+      "gaps": [],
+      "learning_path": "projects/project-204-k8s-operator",
+      "project_id": "project-204-k8s-operator",
+      "solution_path": "projects/project-204-k8s-operator",
+      "status": "ok",
+      "title": "Project 204: Kubernetes Operator for ML Training"
+    }
+  ],
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-senior-engineer-solutions",
+    "path": "/home/rook/ai-infra-curriculum/ai-infra-senior-engineer-solutions",
+    "track": "senior-engineer"
+  },
+  "schema_version": 2,
+  "source_policy": {
+    "official_first": true,
+    "practitioner_reference_note": "VeriSwarm sources may be used only as practitioner implementation references, not standards authorities.",
+    "registry_last_verified": "2026-05-24"
+  },
+  "summary": {
+    "error_count": 0,
+    "gap_count": 6,
+    "module_count": 10,
+    "project_count": 4,
+    "status": "pass",
+    "warning_count": 6
+  },
+  "workspace": "/home/rook/ai-infra-curriculum"
+}

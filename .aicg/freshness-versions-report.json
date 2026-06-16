@@ -1,0 +1,804 @@
+{
+  "finding_count": 36,
+  "findings": [
+    {
+      "excerpt": "- Python 3.11+",
+      "file_path": "README.md",
+      "line_number": 546,
+      "matched_version": "3.11",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "# NVIDIA GPU with CUDA 12.1+",
+      "file_path": "projects/project-202-model-serving/README.md",
+      "line_number": 50,
+      "matched_version": "12.1",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "**Hardware**: NVIDIA A100 40GB, NVLink, 100Gbps InfiniBand",
+      "file_path": "projects/project-201-distributed-training/README.md",
+      "line_number": 160,
+      "matched_version": "A100",
+      "severity": "high",
+      "target_id": "h100"
+    },
+    {
+      "excerpt": "> NVIDIA A100 / H100 with NCCL 2.20+ and PyTorch 2.3+.",
+      "file_path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "line_number": 6,
+      "matched_version": "2.3",
+      "severity": "medium",
+      "target_id": "pytorch"
+    },
+    {
+      "excerpt": "> NVIDIA A100 / H100 with NCCL 2.20+ and PyTorch 2.3+.",
+      "file_path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "line_number": 6,
+      "matched_version": "A100",
+      "severity": "high",
+      "target_id": "h100"
+    },
+    {
+      "excerpt": "- 8x NVIDIA H100 SXM5 80GB (1 node)",
+      "file_path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "line_number": 486,
+      "matched_version": "H100",
+      "severity": "medium",
+      "target_id": "h100"
+    },
+    {
+      "excerpt": "- PyTorch 2.3.1, CUDA 12.4, NCCL 2.21.5, driver 550.54",
+      "file_path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "line_number": 492,
+      "matched_version": "2.3.1",
+      "severity": "medium",
+      "target_id": "pytorch"
+    },
+    {
+      "excerpt": "- PyTorch 2.3.1, CUDA 12.4, NCCL 2.21.5, driver 550.54",
+      "file_path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "line_number": 492,
+      "matched_version": "12.4",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "python3.11 -m venv venv",
+      "file_path": "projects/project-201-distributed-training/STEP_BY_STEP.md",
+      "line_number": 34,
+      "matched_version": "3.11",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "pip install torch==2.1.2+cu121 torchvision==0.16.2+cu121 \\",
+      "file_path": "projects/project-201-distributed-training/STEP_BY_STEP.md",
+      "line_number": 49,
+      "matched_version": "2.1.2",
+      "severity": "medium",
+      "target_id": "torch-package"
+    },
+    {
+      "excerpt": "**Design Decision**: We use Python 3.11 for improved performance and type hint support. CUDA 12.3 provides the latest optimizations for modern GPUs.",
+      "file_path": "projects/project-201-distributed-training/STEP_BY_STEP.md",
+      "line_number": 61,
+      "matched_version": "12.3",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "**Design Decision**: We use Python 3.11 for improved performance and type hint support. CUDA 12.3 provides the latest optimizations for modern GPUs.",
+      "file_path": "projects/project-201-distributed-training/STEP_BY_STEP.md",
+      "line_number": 61,
+      "matched_version": "3.11",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "- Python 3.11+",
+      "file_path": "projects/project-203-multi-region/README.md",
+      "line_number": 78,
+      "matched_version": "3.11",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "image: pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime",
+      "file_path": "projects/project-204-k8s-operator/README.md",
+      "line_number": 371,
+      "matched_version": "2.1.0",
+      "severity": "medium",
+      "target_id": "pytorch"
+    },
+    {
+      "excerpt": "image: pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime",
+      "file_path": "projects/project-204-k8s-operator/README.md",
+      "line_number": 371,
+      "matched_version": "11.8",
+      "severity": "high",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "- `modelName` (e.g., `NVIDIA H100 80GB HBM3`)",
+      "file_path": "projects/project-201-distributed-training/monitoring/README.md",
+      "line_number": 172,
+      "matched_version": "H100",
+      "severity": "medium",
+      "target_id": "h100"
+    },
+    {
+      "excerpt": "- **Runtime**: Python 3.10+, FastAPI, Uvicorn",
+      "file_path": "projects/project-202-model-serving/docs/ARCHITECTURE.md",
+      "line_number": 32,
+      "matched_version": "3.10",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "- **Orchestration**: Kubernetes 1.24+",
+      "file_path": "projects/project-202-model-serving/docs/ARCHITECTURE.md",
+      "line_number": 35,
+      "matched_version": "1.24",
+      "severity": "high",
+      "target_id": "kubernetes"
+    },
+    {
+      "excerpt": "- CUDA 12.1 or later",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 54,
+      "matched_version": "12.1",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "- Kubernetes 1.24+ (for production deployment)",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 62,
+      "matched_version": "1.24",
+      "severity": "high",
+      "target_id": "kubernetes"
+    },
+    {
+      "excerpt": "- Python 3.10+",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 63,
+      "matched_version": "3.10",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "docker run --rm --gpus all nvidia/cuda:12.1.0-base-ubuntu20.04 nvidia-smi",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 105,
+      "matched_version": "12.1.0",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "python3.10 -m venv venv",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 120,
+      "matched_version": "3.10",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "torch==2.1.0",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 139,
+      "matched_version": "2.1.0",
+      "severity": "medium",
+      "target_id": "torch-package"
+    },
+    {
+      "excerpt": "vllm==0.2.7",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 143,
+      "matched_version": "0.2.7",
+      "severity": "medium",
+      "target_id": "vllm"
+    },
+    {
+      "excerpt": "FROM nvidia/cuda:12.1.0-devel-ubuntu20.04 AS base",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 2206,
+      "matched_version": "12.1.0",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "# Set Python 3.10 as default",
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "line_number": 2220,
+      "matched_version": "3.10",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "FROM nvidia/cuda:12.1.0-runtime-ubuntu20.04",
+      "file_path": "projects/project-202-model-serving/docs/TROUBLESHOOTING.md",
+      "line_number": 239,
+      "matched_version": "12.1.0",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "# CUDA 12.1 requires driver >= 525.60.13",
+      "file_path": "projects/project-202-model-serving/docs/TROUBLESHOOTING.md",
+      "line_number": 243,
+      "matched_version": "12.1",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "# CUDA 11.8 requires driver >= 520.61.05",
+      "file_path": "projects/project-202-model-serving/docs/TROUBLESHOOTING.md",
+      "line_number": 244,
+      "matched_version": "11.8",
+      "severity": "high",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "docker run --rm --gpus all nvidia/cuda:12.1.0-base-ubuntu20.04 nvidia-smi",
+      "file_path": "projects/project-202-model-serving/docs/TROUBLESHOOTING.md",
+      "line_number": 276,
+      "matched_version": "12.1.0",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "- CUDA 12.1 or later",
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "line_number": 27,
+      "matched_version": "12.1",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "- Kubernetes 1.24+ (for production)",
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "line_number": 35,
+      "matched_version": "1.24",
+      "severity": "high",
+      "target_id": "kubernetes"
+    },
+    {
+      "excerpt": "python3.10 -m venv venv",
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "line_number": 60,
+      "matched_version": "3.10",
+      "severity": "medium",
+      "target_id": "python"
+    },
+    {
+      "excerpt": "docker run --rm --gpus all nvidia/cuda:12.1.0-base-ubuntu20.04 nvidia-smi",
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "line_number": 499,
+      "matched_version": "12.1.0",
+      "severity": "medium",
+      "target_id": "cuda"
+    },
+    {
+      "excerpt": "image: python:3.10",
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "line_number": 844,
+      "matched_version": "3.10",
+      "severity": "medium",
+      "target_id": "python"
+    }
+  ],
+  "generated_at": "2026-05-31T10:08:28Z",
+  "operation": "freshness_versions",
+  "repo": "ai-infra-senior-engineer-solutions",
+  "schema_version": 1,
+  "target_count": 15,
+  "work_items": [
+    {
+      "current_target": "3.12",
+      "id": "refresh-version-python-readme-md",
+      "matches": [
+        {
+          "excerpt": "- Python 3.11+",
+          "line": 546,
+          "matched_version": "3.11",
+          "severity": "medium"
+        }
+      ],
+      "path": "README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "python",
+      "title": "Update Python references in README.md (target 3.12)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "12.6",
+      "id": "refresh-version-cuda-projects-project-201-distributed-training-benchmarking-md",
+      "matches": [
+        {
+          "excerpt": "- PyTorch 2.3.1, CUDA 12.4, NCCL 2.21.5, driver 550.54",
+          "line": 492,
+          "matched_version": "12.4",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "cuda",
+      "title": "Update CUDA references in projects/project-201-distributed-training/BENCHMARKING.md (target 12.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "H200",
+      "id": "refresh-version-h100-projects-project-201-distributed-training-benchmarking-md",
+      "matches": [
+        {
+          "excerpt": "> NVIDIA A100 / H100 with NCCL 2.20+ and PyTorch 2.3+.",
+          "line": 6,
+          "matched_version": "A100",
+          "severity": "high"
+        },
+        {
+          "excerpt": "- 8x NVIDIA H100 SXM5 80GB (1 node)",
+          "line": 486,
+          "matched_version": "H100",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "high",
+      "target": "h100",
+      "title": "Update NVIDIA H100 references in projects/project-201-distributed-training/BENCHMARKING.md (target H200)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "2.5",
+      "id": "refresh-version-pytorch-projects-project-201-distributed-training-benchmarking-md",
+      "matches": [
+        {
+          "excerpt": "> NVIDIA A100 / H100 with NCCL 2.20+ and PyTorch 2.3+.",
+          "line": 6,
+          "matched_version": "2.3",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "- PyTorch 2.3.1, CUDA 12.4, NCCL 2.21.5, driver 550.54",
+          "line": 492,
+          "matched_version": "2.3.1",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/BENCHMARKING.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "pytorch",
+      "title": "Update PyTorch references in projects/project-201-distributed-training/BENCHMARKING.md (target 2.5)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "H200",
+      "id": "refresh-version-h100-projects-project-201-distributed-training-readme-md",
+      "matches": [
+        {
+          "excerpt": "**Hardware**: NVIDIA A100 40GB, NVLink, 100Gbps InfiniBand",
+          "line": 160,
+          "matched_version": "A100",
+          "severity": "high"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "high",
+      "target": "h100",
+      "title": "Update NVIDIA H100 references in projects/project-201-distributed-training/README.md (target H200)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "12.6",
+      "id": "refresh-version-cuda-projects-project-201-distributed-training-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "**Design Decision**: We use Python 3.11 for improved performance and type hint support. CUDA 12.3 provides the latest optimizations for modern GPUs.",
+          "line": 61,
+          "matched_version": "12.3",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "cuda",
+      "title": "Update CUDA references in projects/project-201-distributed-training/STEP_BY_STEP.md (target 12.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "3.12",
+      "id": "refresh-version-python-projects-project-201-distributed-training-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "python3.11 -m venv venv",
+          "line": 34,
+          "matched_version": "3.11",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "**Design Decision**: We use Python 3.11 for improved performance and type hint support. CUDA 12.3 provides the latest optimizations for modern GPUs.",
+          "line": 61,
+          "matched_version": "3.11",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "python",
+      "title": "Update Python references in projects/project-201-distributed-training/STEP_BY_STEP.md (target 3.12)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "2.5",
+      "id": "refresh-version-torch-package-projects-project-201-distributed-training-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "pip install torch==2.1.2+cu121 torchvision==0.16.2+cu121 \\",
+          "line": 49,
+          "matched_version": "2.1.2",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "torch-package",
+      "title": "Update torch (PyPI) references in projects/project-201-distributed-training/STEP_BY_STEP.md (target 2.5)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "H200",
+      "id": "refresh-version-h100-projects-project-201-distributed-training-monitoring-readme-md",
+      "matches": [
+        {
+          "excerpt": "- `modelName` (e.g., `NVIDIA H100 80GB HBM3`)",
+          "line": 172,
+          "matched_version": "H100",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-201-distributed-training/monitoring/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "h100",
+      "title": "Update NVIDIA H100 references in projects/project-201-distributed-training/monitoring/README.md (target H200)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "12.6",
+      "id": "refresh-version-cuda-projects-project-202-model-serving-readme-md",
+      "matches": [
+        {
+          "excerpt": "# NVIDIA GPU with CUDA 12.1+",
+          "line": 50,
+          "matched_version": "12.1",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "cuda",
+      "title": "Update CUDA references in projects/project-202-model-serving/README.md (target 12.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "1.31",
+      "id": "refresh-version-kubernetes-projects-project-202-model-serving-docs-architecture-md",
+      "matches": [
+        {
+          "excerpt": "- **Orchestration**: Kubernetes 1.24+",
+          "line": 35,
+          "matched_version": "1.24",
+          "severity": "high"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/ARCHITECTURE.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "high",
+      "target": "kubernetes",
+      "title": "Update Kubernetes references in projects/project-202-model-serving/docs/ARCHITECTURE.md (target 1.31)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "3.12",
+      "id": "refresh-version-python-projects-project-202-model-serving-docs-architecture-md",
+      "matches": [
+        {
+          "excerpt": "- **Runtime**: Python 3.10+, FastAPI, Uvicorn",
+          "line": 32,
+          "matched_version": "3.10",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/ARCHITECTURE.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "python",
+      "title": "Update Python references in projects/project-202-model-serving/docs/ARCHITECTURE.md (target 3.12)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "12.6",
+      "id": "refresh-version-cuda-projects-project-202-model-serving-docs-deployment-md",
+      "matches": [
+        {
+          "excerpt": "- CUDA 12.1 or later",
+          "line": 27,
+          "matched_version": "12.1",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "docker run --rm --gpus all nvidia/cuda:12.1.0-base-ubuntu20.04 nvidia-smi",
+          "line": 499,
+          "matched_version": "12.1.0",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "cuda",
+      "title": "Update CUDA references in projects/project-202-model-serving/docs/DEPLOYMENT.md (target 12.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "1.31",
+      "id": "refresh-version-kubernetes-projects-project-202-model-serving-docs-deployment-md",
+      "matches": [
+        {
+          "excerpt": "- Kubernetes 1.24+ (for production)",
+          "line": 35,
+          "matched_version": "1.24",
+          "severity": "high"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "high",
+      "target": "kubernetes",
+      "title": "Update Kubernetes references in projects/project-202-model-serving/docs/DEPLOYMENT.md (target 1.31)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "3.12",
+      "id": "refresh-version-python-projects-project-202-model-serving-docs-deployment-md",
+      "matches": [
+        {
+          "excerpt": "python3.10 -m venv venv",
+          "line": 60,
+          "matched_version": "3.10",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "image: python:3.10",
+          "line": 844,
+          "matched_version": "3.10",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "python",
+      "title": "Update Python references in projects/project-202-model-serving/docs/DEPLOYMENT.md (target 3.12)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "12.6",
+      "id": "refresh-version-cuda-projects-project-202-model-serving-docs-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "- CUDA 12.1 or later",
+          "line": 54,
+          "matched_version": "12.1",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "docker run --rm --gpus all nvidia/cuda:12.1.0-base-ubuntu20.04 nvidia-smi",
+          "line": 105,
+          "matched_version": "12.1.0",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "FROM nvidia/cuda:12.1.0-devel-ubuntu20.04 AS base",
+          "line": 2206,
+          "matched_version": "12.1.0",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "cuda",
+      "title": "Update CUDA references in projects/project-202-model-serving/docs/STEP_BY_STEP.md (target 12.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "1.31",
+      "id": "refresh-version-kubernetes-projects-project-202-model-serving-docs-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "- Kubernetes 1.24+ (for production deployment)",
+          "line": 62,
+          "matched_version": "1.24",
+          "severity": "high"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "high",
+      "target": "kubernetes",
+      "title": "Update Kubernetes references in projects/project-202-model-serving/docs/STEP_BY_STEP.md (target 1.31)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "3.12",
+      "id": "refresh-version-python-projects-project-202-model-serving-docs-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "- Python 3.10+",
+          "line": 63,
+          "matched_version": "3.10",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "python3.10 -m venv venv",
+          "line": 120,
+          "matched_version": "3.10",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "# Set Python 3.10 as default",
+          "line": 2220,
+          "matched_version": "3.10",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "python",
+      "title": "Update Python references in projects/project-202-model-serving/docs/STEP_BY_STEP.md (target 3.12)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "2.5",
+      "id": "refresh-version-torch-package-projects-project-202-model-serving-docs-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "torch==2.1.0",
+          "line": 139,
+          "matched_version": "2.1.0",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "torch-package",
+      "title": "Update torch (PyPI) references in projects/project-202-model-serving/docs/STEP_BY_STEP.md (target 2.5)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "0.6",
+      "id": "refresh-version-vllm-projects-project-202-model-serving-docs-step-by-step-md",
+      "matches": [
+        {
+          "excerpt": "vllm==0.2.7",
+          "line": 143,
+          "matched_version": "0.2.7",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "vllm",
+      "title": "Update vLLM references in projects/project-202-model-serving/docs/STEP_BY_STEP.md (target 0.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "12.6",
+      "id": "refresh-version-cuda-projects-project-202-model-serving-docs-troubleshooting-md",
+      "matches": [
+        {
+          "excerpt": "FROM nvidia/cuda:12.1.0-runtime-ubuntu20.04",
+          "line": 239,
+          "matched_version": "12.1.0",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "# CUDA 12.1 requires driver >= 525.60.13",
+          "line": 243,
+          "matched_version": "12.1",
+          "severity": "medium"
+        },
+        {
+          "excerpt": "# CUDA 11.8 requires driver >= 520.61.05",
+          "line": 244,
+          "matched_version": "11.8",
+          "severity": "high"
+        },
+        {
+          "excerpt": "docker run --rm --gpus all nvidia/cuda:12.1.0-base-ubuntu20.04 nvidia-smi",
+          "line": 276,
+          "matched_version": "12.1.0",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-202-model-serving/docs/TROUBLESHOOTING.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "high",
+      "target": "cuda",
+      "title": "Update CUDA references in projects/project-202-model-serving/docs/TROUBLESHOOTING.md (target 12.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "3.12",
+      "id": "refresh-version-python-projects-project-203-multi-region-readme-md",
+      "matches": [
+        {
+          "excerpt": "- Python 3.11+",
+          "line": 78,
+          "matched_version": "3.11",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-203-multi-region/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "python",
+      "title": "Update Python references in projects/project-203-multi-region/README.md (target 3.12)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "12.6",
+      "id": "refresh-version-cuda-projects-project-204-k8s-operator-readme-md",
+      "matches": [
+        {
+          "excerpt": "image: pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime",
+          "line": 371,
+          "matched_version": "11.8",
+          "severity": "high"
+        }
+      ],
+      "path": "projects/project-204-k8s-operator/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "high",
+      "target": "cuda",
+      "title": "Update CUDA references in projects/project-204-k8s-operator/README.md (target 12.6)",
+      "type": "refresh_versions"
+    },
+    {
+      "current_target": "2.5",
+      "id": "refresh-version-pytorch-projects-project-204-k8s-operator-readme-md",
+      "matches": [
+        {
+          "excerpt": "image: pytorch/pytorch:2.1.0-cuda11.8-cudnn8-runtime",
+          "line": 371,
+          "matched_version": "2.1.0",
+          "severity": "medium"
+        }
+      ],
+      "path": "projects/project-204-k8s-operator/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "target": "pytorch",
+      "title": "Update PyTorch references in projects/project-204-k8s-operator/README.md (target 2.5)",
+      "type": "refresh_versions"
+    }
+  ]
+}

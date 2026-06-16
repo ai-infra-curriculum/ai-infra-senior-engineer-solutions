@@ -1,0 +1,1 @@
+Added Modules and Projects nav sections to `CURRICULUM.md:11-29`, listing all 10 modules (including the previously missing `mod-201-advanced-kubernetes`) and all 4 projects on disk. Format follows the existing bullet-list tone; only paths added, no descriptions invented.

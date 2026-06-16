@@ -1,0 +1,233 @@
+{
+  "broken_count": 13,
+  "broken_findings": [
+    {
+      "file_path": "CODE_OF_CONDUCT.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://github.com/ai-infra-curriculum/ai-infra-engineer-learning/discussions"
+    },
+    {
+      "file_path": "projects/project-201-distributed-training/README.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://helm.ngc.nvidia.com/nvidia"
+    },
+    {
+      "file_path": "projects/project-204-k8s-operator/README.md",
+      "reason": "url-error: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1029)",
+      "status": null,
+      "url": "https://docs.ai-infra-curriculum.com"
+    },
+    {
+      "file_path": "projects/project-204-k8s-operator/README.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/deployments/gpu-operator.yaml"
+    },
+    {
+      "file_path": "projects/project-203-multi-region/docs/TROUBLESHOOTING.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/email"
+    },
+    {
+      "file_path": "projects/project-203-multi-region/docs/TROUBLESHOOTING.md",
+      "reason": "Unsupported Media Type",
+      "status": 415,
+      "url": "https://1.1.1.1/dns-query?name=api.ml.example.com&type=A"
+    },
+    {
+      "file_path": "projects/project-203-multi-region/docs/TROUBLESHOOTING.md",
+      "reason": "url-error: timed out",
+      "status": null,
+      "url": "http://prometheus.central:9090/api/v1/query"
+    },
+    {
+      "file_path": "projects/project-203-multi-region/docs/DEPLOYMENT.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://github.com/example/gitops-repo"
+    },
+    {
+      "file_path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list"
+    },
+    {
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list"
+    },
+    {
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://helm.ngc.nvidia.com/nvidia"
+    },
+    {
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://raw.githubusercontent.com/jaegertracing/jaeger-operator/master/deploy/crds/jaegertracing.io_jaegers_crd.yaml"
+    },
+    {
+      "file_path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "reason": "Not Found",
+      "status": 404,
+      "url": "https://raw.githubusercontent.com/jaegertracing/jaeger-operator/master/deploy/operator.yaml"
+    }
+  ],
+  "files_scanned": 77,
+  "generated_at": "2026-06-04T21:12:48Z",
+  "operation": "freshness_links",
+  "repo": "ai-infra-senior-engineer-solutions",
+  "schema_version": 1,
+  "urls_unique": 87,
+  "work_items": [
+    {
+      "broken_count": 1,
+      "details": [
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://github.com/ai-infra-curriculum/ai-infra-engineer-learning/discussions"
+        }
+      ],
+      "id": "refresh-links-code-of-conduct-md",
+      "path": "CODE_OF_CONDUCT.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "low",
+      "title": "Fix 1 broken link(s) in CODE_OF_CONDUCT.md",
+      "type": "refresh_links"
+    },
+    {
+      "broken_count": 1,
+      "details": [
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://helm.ngc.nvidia.com/nvidia"
+        }
+      ],
+      "id": "refresh-links-projects-project-201-distributed-training-readme-md",
+      "path": "projects/project-201-distributed-training/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "low",
+      "title": "Fix 1 broken link(s) in projects/project-201-distributed-training/README.md",
+      "type": "refresh_links"
+    },
+    {
+      "broken_count": 4,
+      "details": [
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list"
+        },
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://helm.ngc.nvidia.com/nvidia"
+        },
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://raw.githubusercontent.com/jaegertracing/jaeger-operator/master/deploy/crds/jaegertracing.io_jaegers_crd.yaml"
+        },
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://raw.githubusercontent.com/jaegertracing/jaeger-operator/master/deploy/operator.yaml"
+        }
+      ],
+      "id": "refresh-links-projects-project-202-model-serving-docs-deployment-md",
+      "path": "projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "title": "Fix 4 broken link(s) in projects/project-202-model-serving/docs/DEPLOYMENT.md",
+      "type": "refresh_links"
+    },
+    {
+      "broken_count": 1,
+      "details": [
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list"
+        }
+      ],
+      "id": "refresh-links-projects-project-202-model-serving-docs-step-by-step-md",
+      "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "low",
+      "title": "Fix 1 broken link(s) in projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+      "type": "refresh_links"
+    },
+    {
+      "broken_count": 1,
+      "details": [
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://github.com/example/gitops-repo"
+        }
+      ],
+      "id": "refresh-links-projects-project-203-multi-region-docs-deployment-md",
+      "path": "projects/project-203-multi-region/docs/DEPLOYMENT.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "low",
+      "title": "Fix 1 broken link(s) in projects/project-203-multi-region/docs/DEPLOYMENT.md",
+      "type": "refresh_links"
+    },
+    {
+      "broken_count": 3,
+      "details": [
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/default/email"
+        },
+        {
+          "reason": "Unsupported Media Type",
+          "status": 415,
+          "url": "https://1.1.1.1/dns-query?name=api.ml.example.com&type=A"
+        },
+        {
+          "reason": "url-error: timed out",
+          "status": null,
+          "url": "http://prometheus.central:9090/api/v1/query"
+        }
+      ],
+      "id": "refresh-links-projects-project-203-multi-region-docs-troubleshooting-md",
+      "path": "projects/project-203-multi-region/docs/TROUBLESHOOTING.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "title": "Fix 3 broken link(s) in projects/project-203-multi-region/docs/TROUBLESHOOTING.md",
+      "type": "refresh_links"
+    },
+    {
+      "broken_count": 2,
+      "details": [
+        {
+          "reason": "url-error: [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:1029)",
+          "status": null,
+          "url": "https://docs.ai-infra-curriculum.com"
+        },
+        {
+          "reason": "Not Found",
+          "status": 404,
+          "url": "https://raw.githubusercontent.com/NVIDIA/gpu-operator/master/deployments/gpu-operator.yaml"
+        }
+      ],
+      "id": "refresh-links-projects-project-204-k8s-operator-readme-md",
+      "path": "projects/project-204-k8s-operator/README.md",
+      "repo": "ai-infra-senior-engineer-solutions",
+      "severity": "medium",
+      "title": "Fix 2 broken link(s) in projects/project-204-k8s-operator/README.md",
+      "type": "refresh_links"
+    }
+  ]
+}

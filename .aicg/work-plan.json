@@ -1,0 +1,23 @@
+{
+  "audit_summary": {
+    "error_count": 0,
+    "gap_count": 6,
+    "module_count": 10,
+    "project_count": 4,
+    "status": "pass",
+    "warning_count": 6
+  },
+  "backlog_item_count": 0,
+  "backlog_items": [],
+  "generated_at": "2026-06-01T22:27:33Z",
+  "repo": {
+    "has_git": true,
+    "kind": "solutions",
+    "name": "ai-infra-senior-engineer-solutions",
+    "path": "/home/rook/ai-infra-curriculum/ai-infra-senior-engineer-solutions",
+    "track": "senior-engineer"
+  },
+  "schema_version": 2,
+  "work_item_count": 0,
+  "work_items": []
+}

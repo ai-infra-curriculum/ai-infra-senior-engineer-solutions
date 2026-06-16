@@ -1,0 +1,1098 @@
+{
+  "entries": {
+    "CODE_OF_CONDUCT.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 10090
+    },
+    "CONTRIBUTING.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 942
+    },
+    "CURRICULUM.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 351
+    },
+    "LEARNING_GUIDE.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 953
+    },
+    "README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 33825
+    },
+    "SOLUTIONS_INDEX.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 605
+    },
+    "guides/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 116
+    },
+    "modules/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 114
+    },
+    "modules/mod-201-advanced-kubernetes/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772873207629,
+      "size": 587
+    },
+    "modules/mod-201-advanced-kubernetes/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 4086
+    },
+    "modules/mod-201-advanced-kubernetes/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 743
+    },
+    "modules/mod-201-advanced-kubernetes/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 743
+    },
+    "modules/mod-201-advanced-kubernetes/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 743
+    },
+    "modules/mod-201-advanced-kubernetes/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 743
+    },
+    "modules/mod-201-advanced-kubernetes/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 743
+    },
+    "modules/mod-202-distributed-training/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 602
+    },
+    "modules/mod-202-distributed-training/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 4368
+    },
+    "modules/mod-202-distributed-training/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 758
+    },
+    "modules/mod-202-distributed-training/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772877207862,
+      "size": 758
+    },
+    "modules/mod-202-distributed-training/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 758
+    },
+    "modules/mod-202-distributed-training/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 758
+    },
+    "modules/mod-202-distributed-training/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 758
+    },
+    "modules/mod-203-gpu-computing/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 550
+    },
+    "modules/mod-203-gpu-computing/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 4168
+    },
+    "modules/mod-203-gpu-computing/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 706
+    },
+    "modules/mod-203-gpu-computing/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 706
+    },
+    "modules/mod-203-gpu-computing/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 706
+    },
+    "modules/mod-203-gpu-computing/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 706
+    },
+    "modules/mod-203-gpu-computing/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 706
+    },
+    "modules/mod-204-model-optimization/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772881208095,
+      "size": 559
+    },
+    "modules/mod-204-model-optimization/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 3847
+    },
+    "modules/mod-204-model-optimization/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 715
+    },
+    "modules/mod-204-model-optimization/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 715
+    },
+    "modules/mod-204-model-optimization/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 715
+    },
+    "modules/mod-204-model-optimization/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 715
+    },
+    "modules/mod-204-model-optimization/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 715
+    },
+    "modules/mod-205-multi-cloud/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 548
+    },
+    "modules/mod-205-multi-cloud/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 4210
+    },
+    "modules/mod-205-multi-cloud/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 704
+    },
+    "modules/mod-205-multi-cloud/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 704
+    },
+    "modules/mod-205-multi-cloud/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772885208328,
+      "size": 704
+    },
+    "modules/mod-205-multi-cloud/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 704
+    },
+    "modules/mod-205-multi-cloud/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 704
+    },
+    "modules/mod-206-advanced-mlops/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 545
+    },
+    "modules/mod-206-advanced-mlops/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 4456
+    },
+    "modules/mod-206-advanced-mlops/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 701
+    },
+    "modules/mod-206-advanced-mlops/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 701
+    },
+    "modules/mod-206-advanced-mlops/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 701
+    },
+    "modules/mod-206-advanced-mlops/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 701
+    },
+    "modules/mod-206-advanced-mlops/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 701
+    },
+    "modules/mod-207-observability-sre/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772889208561,
+      "size": 562
+    },
+    "modules/mod-207-observability-sre/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 4377
+    },
+    "modules/mod-207-observability-sre/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 718
+    },
+    "modules/mod-207-observability-sre/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 718
+    },
+    "modules/mod-207-observability-sre/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 718
+    },
+    "modules/mod-207-observability-sre/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 718
+    },
+    "modules/mod-207-observability-sre/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 718
+    },
+    "modules/mod-208-iac-gitops/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 531
+    },
+    "modules/mod-208-iac-gitops/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 4192
+    },
+    "modules/mod-208-iac-gitops/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 687
+    },
+    "modules/mod-208-iac-gitops/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 687
+    },
+    "modules/mod-208-iac-gitops/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772893208794,
+      "size": 687
+    },
+    "modules/mod-208-iac-gitops/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 687
+    },
+    "modules/mod-208-iac-gitops/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 687
+    },
+    "modules/mod-209-security-compliance/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 591
+    },
+    "modules/mod-209-security-compliance/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 4457
+    },
+    "modules/mod-209-security-compliance/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 747
+    },
+    "modules/mod-209-security-compliance/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 747
+    },
+    "modules/mod-209-security-compliance/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 747
+    },
+    "modules/mod-209-security-compliance/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 747
+    },
+    "modules/mod-209-security-compliance/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 747
+    },
+    "modules/mod-210-technical-leadership/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 593
+    },
+    "modules/mod-210-technical-leadership/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772897209027,
+      "size": 4467
+    },
+    "modules/mod-210-technical-leadership/exercise-01/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772901209259,
+      "size": 749
+    },
+    "modules/mod-210-technical-leadership/exercise-02/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772901209259,
+      "size": 749
+    },
+    "modules/mod-210-technical-leadership/exercise-03/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772901209259,
+      "size": 749
+    },
+    "modules/mod-210-technical-leadership/exercise-04/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772901209259,
+      "size": 749
+    },
+    "modules/mod-210-technical-leadership/exercise-05/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772901209259,
+      "size": 749
+    },
+    "projects/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772901209259,
+      "size": 64
+    },
+    "projects/project-201-distributed-training/ARCHITECTURE.md": {
+      "findings": [],
+      "mtime_ns": 1780083772901209259,
+      "size": 17303
+    },
+    "projects/project-201-distributed-training/BENCHMARKING.md": {
+      "findings": [],
+      "mtime_ns": 1780083772905209492,
+      "size": 18454
+    },
+    "projects/project-201-distributed-training/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772905209492,
+      "size": 18871
+    },
+    "projects/project-201-distributed-training/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772905209492,
+      "size": 4170
+    },
+    "projects/project-201-distributed-training/STEP_BY_STEP.md": {
+      "findings": [],
+      "mtime_ns": 1780083772905209492,
+      "size": 34207
+    },
+    "projects/project-201-distributed-training/docs/TROUBLESHOOTING.md": {
+      "findings": [],
+      "mtime_ns": 1780083772905209492,
+      "size": 22523
+    },
+    "projects/project-201-distributed-training/kubernetes/ray-cluster.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772909209725,
+      "size": 7006
+    },
+    "projects/project-201-distributed-training/monitoring/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772909209725,
+      "size": 24404
+    },
+    "projects/project-201-distributed-training/requirements.txt": {
+      "findings": [],
+      "mtime_ns": 1780083772909209725,
+      "size": 644
+    },
+    "projects/project-201-distributed-training/src/training/distributed_trainer.py": {
+      "findings": [],
+      "mtime_ns": 1780083772909209725,
+      "size": 19063
+    },
+    "projects/project-202-model-serving/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772913209958,
+      "size": 14732
+    },
+    "projects/project-202-model-serving/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772913209958,
+      "size": 3889
+    },
+    "projects/project-202-model-serving/benchmarks/compare.py": {
+      "findings": [],
+      "mtime_ns": 1780083772913209958,
+      "size": 4588
+    },
+    "projects/project-202-model-serving/benchmarks/latency_test.py": {
+      "findings": [],
+      "mtime_ns": 1780083772913209958,
+      "size": 4656
+    },
+    "projects/project-202-model-serving/benchmarks/throughput_test.py": {
+      "findings": [],
+      "mtime_ns": 1780083772913209958,
+      "size": 4646
+    },
+    "projects/project-202-model-serving/docker/docker-compose.yml": {
+      "findings": [],
+      "mtime_ns": 1780083772913209958,
+      "size": 10360
+    },
+    "projects/project-202-model-serving/docs/API.md": {
+      "findings": [],
+      "mtime_ns": 1780083772913209958,
+      "size": 21241
+    },
+    "projects/project-202-model-serving/docs/ARCHITECTURE.md": {
+      "findings": [],
+      "mtime_ns": 1780083772917210191,
+      "size": 24194
+    },
+    "projects/project-202-model-serving/docs/DEPLOYMENT.md": {
+      "findings": [],
+      "mtime_ns": 1780083772917210191,
+      "size": 22204
+    },
+    "projects/project-202-model-serving/docs/RUNBOOK.md": {
+      "findings": [],
+      "mtime_ns": 1780083772917210191,
+      "size": 16856
+    },
+    "projects/project-202-model-serving/docs/STEP_BY_STEP.md": {
+      "findings": [
+        {
+          "excerpt": "This is a placeholder - in production, this would call the actual",
+          "line": 961,
+          "message": "Found placeholder marker.",
+          "path": "projects/project-202-model-serving/docs/STEP_BY_STEP.md",
+          "severity": "warning",
+          "type": "placeholder"
+        }
+      ],
+      "mtime_ns": 1780083772921210424,
+      "size": 82652
+    },
+    "projects/project-202-model-serving/docs/TROUBLESHOOTING.md": {
+      "findings": [],
+      "mtime_ns": 1780083772921210424,
+      "size": 27092
+    },
+    "projects/project-202-model-serving/kubernetes/base/configmap.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772921210424,
+      "size": 8889
+    },
+    "projects/project-202-model-serving/kubernetes/base/deployment.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772921210424,
+      "size": 9704
+    },
+    "projects/project-202-model-serving/kubernetes/base/hpa.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772921210424,
+      "size": 6557
+    },
+    "projects/project-202-model-serving/kubernetes/base/kustomization.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 3605
+    },
+    "projects/project-202-model-serving/kubernetes/base/networkpolicy.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 5161
+    },
+    "projects/project-202-model-serving/kubernetes/base/pvc.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 2353
+    },
+    "projects/project-202-model-serving/kubernetes/base/service.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 2967
+    },
+    "projects/project-202-model-serving/kubernetes/base/serviceaccount.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 2759
+    },
+    "projects/project-202-model-serving/kubernetes/base/servicemonitor.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 8026
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/dev/dev-ingress.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 1086
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/dev/kustomization.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 5287
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/prod/ingress.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 8337
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/prod/kustomization.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772925210657,
+      "size": 8899
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/prod/network-policy-strict.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 5326
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/prod/priorityclass.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 2682
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/staging/kustomization.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 5282
+    },
+    "projects/project-202-model-serving/kubernetes/overlays/staging/staging-ingress.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 1640
+    },
+    "projects/project-202-model-serving/requirements.txt": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 1499
+    },
+    "projects/project-202-model-serving/scripts/benchmark.sh": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 1326
+    },
+    "projects/project-202-model-serving/scripts/convert_models.sh": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 1236
+    },
+    "projects/project-202-model-serving/scripts/deploy.sh": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 1957
+    },
+    "projects/project-202-model-serving/scripts/setup.sh": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 6103
+    },
+    "projects/project-202-model-serving/src/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 711
+    },
+    "projects/project-202-model-serving/src/llm/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772929210890,
+      "size": 1027
+    },
+    "projects/project-202-model-serving/src/llm/config.py": {
+      "findings": [],
+      "mtime_ns": 1780083772933211123,
+      "size": 9537
+    },
+    "projects/project-202-model-serving/src/llm/vllm_server.py": {
+      "findings": [],
+      "mtime_ns": 1780083772933211123,
+      "size": 15451
+    },
+    "projects/project-202-model-serving/src/models/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772933211123,
+      "size": 7899
+    },
+    "projects/project-202-model-serving/src/routing/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772933211123,
+      "size": 1382
+    },
+    "projects/project-202-model-serving/src/routing/ab_testing.py": {
+      "findings": [],
+      "mtime_ns": 1780083772933211123,
+      "size": 15929
+    },
+    "projects/project-202-model-serving/src/routing/canary.py": {
+      "findings": [],
+      "mtime_ns": 1780083772933211123,
+      "size": 15006
+    },
+    "projects/project-202-model-serving/src/routing/router.py": {
+      "findings": [],
+      "mtime_ns": 1780083772933211123,
+      "size": 13482
+    },
+    "projects/project-202-model-serving/src/serving/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772937211355,
+      "size": 1072
+    },
+    "projects/project-202-model-serving/src/serving/batch_processor.py": {
+      "findings": [],
+      "mtime_ns": 1780083772937211355,
+      "size": 16592
+    },
+    "projects/project-202-model-serving/src/serving/model_loader.py": {
+      "findings": [],
+      "mtime_ns": 1780083772937211355,
+      "size": 18230
+    },
+    "projects/project-202-model-serving/src/serving/server.py": {
+      "findings": [],
+      "mtime_ns": 1780083772941211588,
+      "size": 17774
+    },
+    "projects/project-202-model-serving/src/tensorrt/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772941211588,
+      "size": 958
+    },
+    "projects/project-202-model-serving/src/tensorrt/calibrator.py": {
+      "findings": [],
+      "mtime_ns": 1780083772941211588,
+      "size": 13095
+    },
+    "projects/project-202-model-serving/src/tensorrt/converter.py": {
+      "findings": [],
+      "mtime_ns": 1780083772945211821,
+      "size": 17267
+    },
+    "projects/project-202-model-serving/src/tensorrt/optimizer.py": {
+      "findings": [],
+      "mtime_ns": 1780083772945211821,
+      "size": 16975
+    },
+    "projects/project-202-model-serving/src/tracing/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772945211821,
+      "size": 1325
+    },
+    "projects/project-202-model-serving/src/tracing/middleware.py": {
+      "findings": [],
+      "mtime_ns": 1780083772945211821,
+      "size": 11039
+    },
+    "projects/project-202-model-serving/src/tracing/tracer.py": {
+      "findings": [],
+      "mtime_ns": 1780083772945211821,
+      "size": 14931
+    },
+    "projects/project-202-model-serving/tests/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772945211821,
+      "size": 1254
+    },
+    "projects/project-202-model-serving/tests/conftest.py": {
+      "findings": [],
+      "mtime_ns": 1780083772945211821,
+      "size": 16162
+    },
+    "projects/project-202-model-serving/tests/integration/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772949212054,
+      "size": 32
+    },
+    "projects/project-202-model-serving/tests/integration/test_complete_flow.py": {
+      "findings": [],
+      "mtime_ns": 1780083772949212054,
+      "size": 947
+    },
+    "projects/project-202-model-serving/tests/test_routing.py": {
+      "findings": [],
+      "mtime_ns": 1780083772949212054,
+      "size": 19381
+    },
+    "projects/project-202-model-serving/tests/test_serving.py": {
+      "findings": [],
+      "mtime_ns": 1780083772949212054,
+      "size": 18962
+    },
+    "projects/project-202-model-serving/tests/test_tensorrt.py": {
+      "findings": [],
+      "mtime_ns": 1780083772949212054,
+      "size": 18364
+    },
+    "projects/project-202-model-serving/tests/test_tracing.py": {
+      "findings": [],
+      "mtime_ns": 1780083772949212054,
+      "size": 14386
+    },
+    "projects/project-203-multi-region/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772953212287,
+      "size": 10157
+    },
+    "projects/project-203-multi-region/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772953212287,
+      "size": 4272
+    },
+    "projects/project-203-multi-region/docker/docker-compose.yml": {
+      "findings": [],
+      "mtime_ns": 1780083772953212287,
+      "size": 1019
+    },
+    "projects/project-203-multi-region/docs/API.md": {
+      "findings": [],
+      "mtime_ns": 1780083772953212287,
+      "size": 16943
+    },
+    "projects/project-203-multi-region/docs/ARCHITECTURE.md": {
+      "findings": [],
+      "mtime_ns": 1780083772953212287,
+      "size": 16391
+    },
+    "projects/project-203-multi-region/docs/DEPLOYMENT.md": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 20156
+    },
+    "projects/project-203-multi-region/docs/STEP_BY_STEP.md": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 10718
+    },
+    "projects/project-203-multi-region/docs/TROUBLESHOOTING.md": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 22329
+    },
+    "projects/project-203-multi-region/kubernetes/base/configmap.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 405
+    },
+    "projects/project-203-multi-region/kubernetes/base/deployment.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 1575
+    },
+    "projects/project-203-multi-region/kubernetes/base/kustomization.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 285
+    },
+    "projects/project-203-multi-region/kubernetes/base/namespace.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 117
+    },
+    "projects/project-203-multi-region/kubernetes/base/prometheus-rules.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 756
+    },
+    "projects/project-203-multi-region/kubernetes/base/service.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 638
+    },
+    "projects/project-203-multi-region/kubernetes/base/serviceaccount.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772957212520,
+      "size": 556
+    },
+    "projects/project-203-multi-region/kubernetes/overlays/us-west-2/hpa.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772961212753,
+      "size": 830
+    },
+    "projects/project-203-multi-region/kubernetes/overlays/us-west-2/kustomization.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772961212753,
+      "size": 494
+    },
+    "projects/project-203-multi-region/openapi.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772961212753,
+      "size": 29167
+    },
+    "projects/project-203-multi-region/scripts/deploy.sh": {
+      "findings": [],
+      "mtime_ns": 1780083772961212753,
+      "size": 2701
+    },
+    "projects/project-203-multi-region/scripts/health_check.sh": {
+      "findings": [],
+      "mtime_ns": 1780083772961212753,
+      "size": 1324
+    },
+    "projects/project-203-multi-region/src/cost/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772961212753,
+      "size": 421
+    },
+    "projects/project-203-multi-region/src/cost/cost_analyzer.py": {
+      "findings": [
+        {
+          "excerpt": "# Placeholder for GCP cost data",
+          "line": 181,
+          "message": "Found placeholder marker.",
+          "path": "projects/project-203-multi-region/src/cost/cost_analyzer.py",
+          "severity": "warning",
+          "type": "placeholder"
+        },
+        {
+          "excerpt": "# Placeholder for Azure cost data",
+          "line": 204,
+          "message": "Found placeholder marker.",
+          "path": "projects/project-203-multi-region/src/cost/cost_analyzer.py",
+          "severity": "warning",
+          "type": "placeholder"
+        }
+      ],
+      "mtime_ns": 1780083772961212753,
+      "size": 18162
+    },
+    "projects/project-203-multi-region/src/cost/optimizer.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 6706
+    },
+    "projects/project-203-multi-region/src/cost/reporter.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 4605
+    },
+    "projects/project-203-multi-region/src/failover/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 353
+    },
+    "projects/project-203-multi-region/src/failover/dns_updater.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 15702
+    },
+    "projects/project-203-multi-region/src/failover/failover_controller.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 19308
+    },
+    "projects/project-203-multi-region/src/failover/recovery.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 18107
+    },
+    "projects/project-203-multi-region/src/monitoring/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 310
+    },
+    "projects/project-203-multi-region/src/monitoring/alerting.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 5056
+    },
+    "projects/project-203-multi-region/src/monitoring/global_dashboard.py": {
+      "findings": [],
+      "mtime_ns": 1780083772965212986,
+      "size": 3077
+    },
+    "projects/project-203-multi-region/src/monitoring/metrics_aggregator.py": {
+      "findings": [],
+      "mtime_ns": 1780083772969213219,
+      "size": 7821
+    },
+    "projects/project-203-multi-region/src/replication/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772969213219,
+      "size": 343
+    },
+    "projects/project-203-multi-region/src/replication/config_sync.py": {
+      "findings": [],
+      "mtime_ns": 1780083772969213219,
+      "size": 18907
+    },
+    "projects/project-203-multi-region/src/replication/data_sync.py": {
+      "findings": [],
+      "mtime_ns": 1780083772969213219,
+      "size": 16910
+    },
+    "projects/project-203-multi-region/src/replication/model_replicator.py": {
+      "findings": [],
+      "mtime_ns": 1780083772969213219,
+      "size": 18521
+    },
+    "projects/project-204-k8s-operator/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772973213451,
+      "size": 33634
+    },
+    "projects/project-204-k8s-operator/SOLUTION.md": {
+      "findings": [],
+      "mtime_ns": 1780083772973213451,
+      "size": 4933
+    },
+    "projects/project-204-k8s-operator/examples/trainingjob-distributed.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772973213451,
+      "size": 1708
+    },
+    "projects/project-204-k8s-operator/examples/trainingjob-resume.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772973213451,
+      "size": 1151
+    },
+    "projects/project-204-k8s-operator/examples/trainingjob-simple.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772973213451,
+      "size": 350
+    },
+    "projects/project-204-k8s-operator/kubernetes/base/deployment.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 1365
+    },
+    "projects/project-204-k8s-operator/kubernetes/base/rbac.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 1363
+    },
+    "projects/project-204-k8s-operator/kubernetes/base/service.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 288
+    },
+    "projects/project-204-k8s-operator/kubernetes/base/trainingjob-crd.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 15799
+    },
+    "projects/project-204-k8s-operator/kubernetes/monitoring/servicemonitor.yaml": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 303
+    },
+    "projects/project-204-k8s-operator/requirements.txt": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 95
+    },
+    "projects/project-204-k8s-operator/src/controllers/checkpoint_controller.py": {
+      "findings": [
+        {
+          "excerpt": "# Placeholder implementation",
+          "line": 93,
+          "message": "Found placeholder marker.",
+          "path": "projects/project-204-k8s-operator/src/controllers/checkpoint_controller.py",
+          "severity": "warning",
+          "type": "placeholder"
+        },
+        {
+          "excerpt": "# Placeholder implementation",
+          "line": 112,
+          "message": "Found placeholder marker.",
+          "path": "projects/project-204-k8s-operator/src/controllers/checkpoint_controller.py",
+          "severity": "warning",
+          "type": "placeholder"
+        }
+      ],
+      "mtime_ns": 1780083772977213684,
+      "size": 3320
+    },
+    "projects/project-204-k8s-operator/src/controllers/job_controller.py": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 11565
+    },
+    "projects/project-204-k8s-operator/src/controllers/status_controller.py": {
+      "findings": [
+        {
+          "excerpt": "# Placeholder implementation",
+          "line": 123,
+          "message": "Found placeholder marker.",
+          "path": "projects/project-204-k8s-operator/src/controllers/status_controller.py",
+          "severity": "warning",
+          "type": "placeholder"
+        }
+      ],
+      "mtime_ns": 1780083772977213684,
+      "size": 4758
+    },
+    "projects/project-204-k8s-operator/src/operator/main.py": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 14207
+    },
+    "projects/project-204-k8s-operator/src/resources/job_builder.py": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 12145
+    },
+    "projects/project-204-k8s-operator/src/utils/__init__.py": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 328
+    },
+    "projects/project-204-k8s-operator/src/utils/k8s_client.py": {
+      "findings": [],
+      "mtime_ns": 1780083772977213684,
+      "size": 10221
+    },
+    "projects/project-204-k8s-operator/src/utils/logger.py": {
+      "findings": [],
+      "mtime_ns": 1780083772981213917,
+      "size": 3359
+    },
+    "projects/project-204-k8s-operator/src/utils/metrics.py": {
+      "findings": [],
+      "mtime_ns": 1780083772981213917,
+      "size": 10282
+    },
+    "resources/README.md": {
+      "findings": [],
+      "mtime_ns": 1780083772981213917,
+      "size": 85
+    }
+  },
+  "generated_at": "2026-05-29T19:45:25Z",
+  "schema_version": 1
+}
