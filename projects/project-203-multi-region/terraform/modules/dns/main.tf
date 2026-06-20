@@ -198,8 +198,11 @@ resource "aws_route53_record" "default" {
 
   set_identifier = "default"
 
+  # `country = "*"` is Route53's wildcard for the default geolocation
+  # record — the `geolocation_routing_policy` block has no `location`
+  # argument, so terraform validate rejected the previous spelling.
   geolocation_routing_policy {
-    location = "*"
+    country = "*"
   }
 }
 
