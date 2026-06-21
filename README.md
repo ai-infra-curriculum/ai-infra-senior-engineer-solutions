@@ -1,5 +1,9 @@
 # Senior AI Infrastructure Engineer - Solutions Repository
 
+<!-- aicg:site-banner -->
+> 🎓 Part of the **[AI Infrastructure Curriculum](https://ai-infra-curriculum.github.io/)** — a free, open-source ladder of role-based AI-infrastructure programs. [Explore the ladder](https://ai-infra-curriculum.github.io/) · [Join the first live cohort](https://ai-infra-curriculum.github.io/junior.html)
+<!-- /aicg:site-banner -->
+
 ![AI Infrastructure](https://img.shields.io/badge/AI-Infrastructure-blue)
 ![Level](https://img.shields.io/badge/Level-Senior%20Engineer-orange)
 ![Projects](https://img.shields.io/badge/Projects-4%20Complete-brightgreen)
@@ -705,7 +709,6 @@ Special thanks to:
 ---
 
 **Ready to dive in? Start with [Project 201: Distributed Training](projects/project-201-distributed-training/)**
-
 
 ---
 
