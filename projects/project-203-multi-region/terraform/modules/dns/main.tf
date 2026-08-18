@@ -198,8 +198,13 @@ resource "aws_route53_record" "default" {
 
   set_identifier = "default"
 
+  # `country = "*"` is Route53's catch-all geolocation marker (resource
+  # record returned when no other geolocation policy matches). The
+  # `geolocation_routing_policy` block schema only accepts
+  # `continent` / `country` / `subdivision` — `location` is not a valid
+  # argument and would fail `terraform validate`.
   geolocation_routing_policy {
-    location = "*"
+    country = "*"
   }
 }
 
