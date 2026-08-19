@@ -150,7 +150,7 @@ COPY --chown=appuser:appuser .env.example /app/.env
 
 # Set environment variables for the application
 ENV PATH=/home/appuser/.local/bin:$PATH \
-    PYTHONPATH=/app:$PYTHONPATH \
+    PYTHONPATH=/app \
     MODEL_CACHE_DIR=/app/models \
     TENSORRT_ENGINE_CACHE_DIR=/app/engine_cache \
     TENSORRT_CALIBRATION_CACHE=/app/calibration_cache \

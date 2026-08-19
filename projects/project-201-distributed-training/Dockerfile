@@ -1,7 +1,7 @@
 # Multi-stage Docker build for distributed training
 
 # Stage 1: Build dependencies
-FROM nvcr.io/nvidia/pytorch:23.12-py3 as builder
+FROM nvcr.io/nvidia/pytorch:23.12-py3 AS builder
 
 WORKDIR /build
 
