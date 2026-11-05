@@ -10,3 +10,4 @@
 | 2026-11-05 | `fill-mod-208-iac-gitops-solutions` | `mod-208-iac-gitops` | Fill mod-208-iac-gitops module exercise solutions |
 | 2026-11-05 | `fill-mod-207-observability-sre-solutions` | `mod-207-observability-sre` | Fill mod-207-observability-sre module exercise solutions |
 | 2026-11-05 | `fill-mod-209-security-compliance-solutions` | `mod-209-security-compliance` | Fill mod-209-security-compliance module exercise solutions |
+| 2026-11-05 | `fill-mod-210-technical-leadership-solutions` | `mod-210-technical-leadership` | Fill mod-210-technical-leadership module exercise solutions |
