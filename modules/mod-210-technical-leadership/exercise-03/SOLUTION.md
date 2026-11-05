@@ -191,15 +191,18 @@ sentence is the point.
 side) and a bullet list of three changes.*
 
 Speaker notes:
-> "Three changes. One: switched to the async MLflow client
-> so the handshake overlaps with metadata parsing. Two:
+> "Three changes. One: swapped the per-call MLflow REST
+> client for a long-lived `requests.Session` with HTTP
+> keep-alive, so DNS resolution and TLS negotiation happen
+> once per pod lifetime instead of once per fetch. Two:
 > warmed the resolver cache in the serving pod's init
-> container with a single pre-flight call to the registry.
+> container with a single pre-flight call to the registry,
+> so even the first real fetch skips the cold DNS miss.
 > Three: added a readiness-probe-based cold-start health
 > check so any pod that exceeds 2 seconds on first fetch
-> fails fast instead of serving timeouts. The async client
-> did most of the work, but the warm-up is what tightened
-> the tail."
+> fails fast instead of serving timeouts. The connection
+> reuse did most of the work, but the warm-up is what
+> tightened the tail."
 
 Three changes maximum per slide. If the real fix had seven,
 split across two slides and name the subset.
@@ -276,9 +279,10 @@ those are:
   *"Probably. The diagnostic — span the fetch, measure
   the tail — is the same. The fix may differ."*
 - "What did we not fix?" —
-  *"Registry API itself is still synchronous. For now the
-  async client absorbs it. If registry latency doubles,
-  we'll have to redesign the registry, not the client."*
+  *"The registry API itself is still a per-call REST
+  surface. For now the pooled session absorbs the overhead.
+  If registry latency doubles, we'll have to redesign the
+  registry, not the client."*
 
 The "what did we not fix" answer is the senior-engineer
 tell. Admitting scope honestly builds credibility faster

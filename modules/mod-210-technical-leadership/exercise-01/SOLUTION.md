@@ -116,16 +116,22 @@ these are left as inline comments on the relevant lines.
 
 1. **`training/preprocess.py:4-7` — the regexes are
    under-specified and will produce silent data corruption.**
-   `[\w\.-]+@[\w\.-]+` matches `a.b` and anything containing
-   `@`; it will scrub Markdown references, YAML anchors, and
-   code snippets in the corpus. Please either (a) use a
-   vetted library (`pii-scrubber` is already being added to
-   requirements, but it is not used — see §2c below) or (b)
-   anchor the patterns and add unit tests that prove the
-   false-positive rate on a held-out corpus sample is below
-   whatever threshold the data team accepts. There is no
-   "regex PII" baseline that is correct without this
-   measurement.
+   `[\w\.-]+@[\w\.-]+` matches far more than email: the
+   NumPy matrix-multiplication operator in code samples
+   (`weights@x`, `logits@W.T`), SSH clone URLs
+   (`git@github.com:owner/repo.git`), and Docker image
+   digests (`trainer@sha256:abc123...`) all satisfy the
+   pattern and will be replaced with `<EMAIL>`, silently
+   corrupting any code or ops snippet in the corpus.
+   Please either (a) use a vetted library (`pii-scrubber`
+   is already being added to requirements, but it is not
+   used — see §2c below) or (b) anchor the patterns
+   (require a TLD-shaped suffix, require whitespace or
+   string boundaries on each side) and add unit tests that
+   prove the false-positive rate on a held-out corpus
+   sample is below whatever threshold the data team
+   accepts. There is no "regex PII" baseline that is
+   correct without this measurement.
 2. **`training/preprocess.py:11` — no dataset fingerprint is
    emitted, so this change is invisible to lineage.** The
    model trained after this merge will consume a *different*
