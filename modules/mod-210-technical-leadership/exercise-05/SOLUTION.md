@@ -327,16 +327,18 @@ conversation.
 >
 > **Shared artefact.** A short *transition plan*, not
 > a *stop order*:
->   - the admission rule that will block inference-shaped
->     jobs (effective 2026-04-01);
->   - the alternative path — a lower-tier inference pool
->     with spot GPUs, lower cost than training-cluster
->     opportunistic use, documented in a one-page
->     runbook;
->   - the two Sev2 incidents cited directly, with
->     postmortem links.
->   Ground the ask in NIST AI RMF MANAGE-4.3 (response
->   to incidents) and the platform's control C07.
+>
+> - the admission rule that will block inference-shaped
+>   jobs (effective 2026-04-01);
+> - the alternative path — a lower-tier inference pool
+>   with spot GPUs, lower cost than training-cluster
+>   opportunistic use, documented in a one-page
+>   runbook;
+> - the two Sev2 incidents cited directly, with
+>   postmortem links.
+>
+> Ground the ask in NIST AI RMF MANAGE-4.3 (response
+> to incidents) and the platform's control C07.
 >
 > **Conversation sequence.**
 >
