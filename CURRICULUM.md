@@ -27,3 +27,11 @@ solutions deep-dive (where one exists).
 - [`project-202-model-serving`](projects/project-202-model-serving/)
 - [`project-203-multi-region`](projects/project-203-multi-region/)
 - [`project-204-k8s-operator`](projects/project-204-k8s-operator/)
+
+## Shipped (autonomous)
+
+Auto-appended by the AICG runner. One row per verified work item. Edit the rest of the document by hand; this section is additive only.
+
+| Date | Work ID | Scope | Title |
+|---|---|---|---|
+| 2026-11-04 | `fill-mod-203-gpu-computing-solutions` | `mod-203-gpu-computing` | Fill mod-203-gpu-computing module exercise solutions |
