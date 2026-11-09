@@ -53,7 +53,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-solutions.git
+git clone https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-solutions
 cd ai-infra-senior-engineer-solutions/projects/project-202-model-serving
 
 # Create virtual environment
@@ -742,7 +742,7 @@ kubectl create secret tls tls-secret \
 
 ```bash
 # Install cert-manager
-kubectl apply -f https://github.com/cert-manager/cert-manager/releases/download/v1.13.0/cert-manager.yaml
+kubectl apply -f https://release-assets.githubusercontent.com/github-production-release-asset/92313258/856d3950-136d-4dab-8d9e-a7e37327a03d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-11-09T02%3A48%3A34Z&rscd=attachment%3B+filename%3Dcert-manager.yaml&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-11-09T01%3A47%3A49Z&ske=2026-11-09T02%3A48%3A34Z&sks=b&skv=2018-11-09&sig=LxLhhPuFQiVy9IdBr4fkWXuxfdLWqc8ev7Td28Jo9UE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc5NDE4OTkyOSwibmJmIjoxNzk0MTg5NjI5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.aWalwlbimxvRdvtCYHuPP0w8Ra8D9W94yg2GWm4oWbA&response-content-disposition=attachment%3B%20filename%3Dcert-manager.yaml&response-content-type=application%2Foctet-stream
 
 # Create ClusterIssuer
 kubectl apply -f - <<EOF
