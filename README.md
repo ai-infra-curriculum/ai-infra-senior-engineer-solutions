@@ -559,7 +559,7 @@ All projects include comprehensive benchmarking:
 
 ```bash
 # Clone repository
-git clone https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-solutions.git
+git clone https://github.com/ai-infra-curriculum/ai-infra-senior-engineer-solutions
 cd ai-infra-senior-engineer-solutions
 
 # Choose a project
