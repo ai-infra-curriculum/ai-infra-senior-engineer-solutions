@@ -19,7 +19,7 @@ A durable solution picks one of two shapes:
 - **Sealed Secrets** (Bitnami) — commit an encrypted
   `SealedSecret` CRD; an in-cluster controller decrypts into a
   normal `Secret` using its private key
-  ([bitnami-labs/sealed-secrets](https://github.com/bitnami-labs/sealed-secrets)).
+  ([bitnami-labs/sealed-secrets](https://github.com/bitnami/sealed-secrets)).
   The encrypted payload is scoped by namespace + name, which
   prevents reuse from being silently moved.
 - **External Secrets Operator** — commit an `ExternalSecret`
@@ -100,7 +100,7 @@ spec:
     automated: { prune: true, selfHeal: true }
 ```
 
-Chart install instructions: [Sealed Secrets install](https://github.com/bitnami-labs/sealed-secrets#installation)
+Chart install instructions: [Sealed Secrets install](https://github.com/bitnami/sealed-secrets)
 and [ESO install](https://external-secrets.io/latest/introduction/getting-started/).
 
 ### 2b. Sealed Secrets — the commit flow
@@ -120,7 +120,7 @@ and [ESO install](https://external-secrets.io/latest/introduction/getting-starte
    ```
 
 2. Seal it with the cluster's public key fetched from the
-   controller ([`kubeseal` usage](https://github.com/bitnami-labs/sealed-secrets#usage)):
+   controller ([`kubeseal` usage](https://github.com/bitnami/sealed-secrets)):
 
    ```bash
    kubeseal \
@@ -135,7 +135,7 @@ and [ESO install](https://external-secrets.io/latest/introduction/getting-starte
    payload is bound to namespace + name by default: moving it
    to a different namespace or renaming it makes decryption
    fail
-   ([Scope](https://github.com/bitnami-labs/sealed-secrets#scopes)).
+   ([Scope](https://github.com/bitnami/sealed-secrets)).
 
 4. Argo CD syncs the `SealedSecret`. The controller decrypts
    into a `Secret` of the same name/namespace. The decrypted
@@ -161,7 +161,7 @@ spec:
 
 **Key rotation.** The controller rotates its private key on a
 30-day default schedule and retains prior keys for backward
-decrypt ([Secret rotation](https://github.com/bitnami-labs/sealed-secrets#secret-rotation)).
+decrypt ([Secret rotation](https://github.com/bitnami/sealed-secrets)).
 To rotate a sealed *value*, re-seal and commit; Argo CD picks
 up the change.
 
@@ -344,7 +344,7 @@ Primary (official project documentation):
 - Kubernetes — Secrets (base64 is encoding, not encryption) —
   <https://kubernetes.io/docs/concepts/configuration/secret/>
 - bitnami-labs / sealed-secrets —
-  <https://github.com/bitnami-labs/sealed-secrets>
+  <https://github.com/bitnami/sealed-secrets>
 - External Secrets Operator — Overview —
   <https://external-secrets.io/latest/introduction/overview/>
 - ExternalSecret resource —
