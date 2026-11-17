@@ -312,14 +312,14 @@ Pass criteria:
 
 Official project documentation:
 
-- NVIDIA CUDA C++ Programming Guide — https://docs.nvidia.com/cuda/cuda-c-programming-guide/
+- NVIDIA CUDA C++ Programming Guide — http://web.archive.org/web/20261101143446/https://docs.nvidia.com/cuda/cuda-c-programming-guide/
 - NVIDIA CUDA Best Practices Guide — https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/
 - NVIDIA Nsight Compute — https://docs.nvidia.com/nsight-compute/
 - Triton language docs — https://triton-lang.org/
 - PyTorch docs — https://pytorch.org/docs/stable/
 - cuBLAS — https://docs.nvidia.com/cuda/cublas/
 - CUTLASS — https://github.com/NVIDIA/cutlass
-- CUB — https://nvidia.github.io/cccl/cub/
+- CUB — http://web.archive.org/web/20251231165646/https://nvidia.github.io/cccl/cub/
 
 Local context:
 
