@@ -127,7 +127,7 @@ grafana:
 
 `ServiceMonitor` and `PodMonitor` are the Prometheus Operator
 custom resources that replace raw scrape configs
-([Prometheus Operator docs — ServiceMonitor](https://prometheus-operator.dev/docs/user-guides/getting-started/)).
+([Prometheus Operator docs — ServiceMonitor](http://web.archive.org/web/20240613025954/https://prometheus-operator.dev/docs/user-guides/getting-started/)).
 Setting `*SelectorNilUsesHelmValues: false` lets Prometheus pick
 up CRs the chart did not install (i.e., your application's own).
 
