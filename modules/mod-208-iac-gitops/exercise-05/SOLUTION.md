@@ -96,7 +96,7 @@ I = Informed.
 The platform runs the following policies in CI *and* at
 admission. Enforcing only in CI lets anyone with `kubectl`
 bypass them; enforcing only in admission produces failures too
-late in the loop. Run both ([Kyverno — Policies and Rules](http://web.archive.org/web/20250424105433/https://kyverno.io/docs/kyverno-policies/)).
+late in the loop. Run both ([Kyverno — Policies and Rules](http://web.archive.org/web/20250424105433/http://web.archive.org/web/20250424105433/https://kyverno.io/docs/kyverno-policies/)).
 
 | ID | Rule | Rationale |
 |---|---|---|
