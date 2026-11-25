@@ -110,7 +110,7 @@ and documents why.
 | ML10 Model Poisoning | Weights tampering | Yes | Shared registry | Signed artifacts + cosign verify (ex-01) |
 
 The matching MITRE ATLAS mapping is kept as a sibling table
-([ATLAS Matrices](http://web.archive.org/web/20240207065752/https://atlas.mitre.org/matrices/ATLAS/)) —
+([ATLAS Matrices](http://web.archive.org/web/20240207065752/http://web.archive.org/web/20240207065752/https://atlas.mitre.org/matrices/ATLAS/)) —
 each tactic/technique maps to one or more controls in the
 catalogue so attackers' moves have named defenders.
 
@@ -339,7 +339,7 @@ Primary (official standards and project documentation):
 - OWASP Machine Learning Security Top 10 —
   <https://owasp.org/www-project-machine-learning-security-top-10/>
 - MITRE ATLAS — Matrices —
-  <http://web.archive.org/web/20240207065752/https://atlas.mitre.org/matrices/ATLAS/>
+  <http://web.archive.org/web/20240207065752/http://web.archive.org/web/20240207065752/https://atlas.mitre.org/matrices/ATLAS/>
 - Mitchell et al. — Model Cards for Model Reporting —
   <https://arxiv.org/abs/1810.03993>
 
